@@ -1,3 +1,13 @@
+# This is a fork! 
+
+Credits goes to https://github.com/whiplashoo/split-image
+
+## Bugfix
+
+I altered only one line to get rid of an exception raised...
+
+----------
+
 # split-image
 
 [![Downloads](https://static.pepy.tech/personalized-badge/split-image?period=total&units=international_system&left_color=blue&right_color=orange&left_text=Downloads)](https://pepy.tech/project/split-image) [![Downloads](https://static.pepy.tech/personalized-badge/split-image?period=month&units=international_system&left_color=blue&right_color=yellow&left_text=Downloads%20per%20month)](https://pepy.tech/project/split-image)
