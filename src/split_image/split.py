@@ -61,7 +61,8 @@ def get_save_params(im, ext):
 def split_image(image_path, rows, cols, should_square, should_cleanup, should_quiet=False, output_dir=None):
     im = Image.open(image_path)
     im_width, im_height = im.size
-    col_width = int(im_width / cols)
+    # col_width = int(im_width / cols)
+    col_width = im_width / cols # Bugfix: Otherwise it will end in an exception in line 39
     row_height = int(im_height / rows)
     name, ext = os.path.splitext(image_path)
     name = os.path.basename(name)
