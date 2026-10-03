@@ -2,6 +2,8 @@
 
 Credits goes to https://github.com/whiplashoo/split-image
 
+The pip install below will install the orginal version. I did not make an individual package for PyPi...
+
 ## Bugfix
 
 I altered only one line to get rid of an exception raised...
